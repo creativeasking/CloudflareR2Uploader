@@ -1,0 +1,15 @@
+
+name = "cloudflare-r2-uploader"
+main = "src/worker.js"
+compatibility_date = "2026-11-18"
+
+# Preserve Dashboard-configured variables
+keep_vars = true
+
+# Required secrets configured in Cloudflare Dashboard
+[secrets]
+required = [
+  "R2_ACCOUNT_ID",
+  "R2_ACCESS_KEY_ID",
+  "R2_SECRET_ACCESS_KEY"
+]
