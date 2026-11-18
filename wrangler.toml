@@ -1,6 +1,5 @@
 
-name = "cloudflare-r2-uploader"
-pages_build_output_dir = "./dist"
+name = "cf-files"
 compatibility_date = "2026-11-18"
 
 # Preserve Dashboard-configured variables
@@ -13,3 +12,6 @@ required = [
   "R2_ACCESS_KEY_ID",
   "R2_SECRET_ACCESS_KEY"
 ]
+
+[assets]
+directory = "./dist"
